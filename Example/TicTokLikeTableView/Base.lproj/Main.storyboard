@@ -1,30 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="al6-yB-hjN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="BdY-34-vf1">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TicTokLikeTableView_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="al6-yB-hjN" customClass="ViewController" customModule="TicTokLikeTableView_Example" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="600" sectionHeaderHeight="28" sectionFooterHeight="28" id="MYU-HC-vEe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cellm" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellm" rowHeight="825" id="a36-Hx-GCS" customClass="TTableViewCell" customModule="TicTokLikeTableView_Example" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="825"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a36-Hx-GCS" id="190-5l-e6e">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="824.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SC8-Hv-4LT">
+                                            <rect key="frame" x="-4" y="-1" width="379" height="69"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="69" id="XDe-wI-nFW"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.30000001192092896" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Loading..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JOh-qg-Ncc">
+                                            <rect key="frame" x="7" y="11" width="387" height="38"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dx3-P3-2Jt" customClass="PlayVideo" customModule="TicTokLikeTableView_Example" customModuleProvider="target">
+                                            <rect key="frame" x="-4" y="0.0" width="391" height="824.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="SC8-Hv-4LT" secondAttribute="trailing" id="3GM-qW-hMA"/>
+                                        <constraint firstItem="SC8-Hv-4LT" firstAttribute="top" secondItem="190-5l-e6e" secondAttribute="topMargin" constant="-12" id="Q6k-rg-2qN"/>
+                                        <constraint firstItem="Dx3-P3-2Jt" firstAttribute="centerY" secondItem="190-5l-e6e" secondAttribute="centerY" id="R1z-EX-wd7"/>
+                                        <constraint firstItem="Dx3-P3-2Jt" firstAttribute="height" secondItem="190-5l-e6e" secondAttribute="height" id="Skm-fw-ise"/>
+                                        <constraint firstItem="Dx3-P3-2Jt" firstAttribute="width" secondItem="190-5l-e6e" secondAttribute="width" constant="16" id="Xb5-Vy-PKo"/>
+                                        <constraint firstItem="Dx3-P3-2Jt" firstAttribute="leading" secondItem="190-5l-e6e" secondAttribute="leadingMargin" constant="-20" id="get-QG-Pcp"/>
+                                        <constraint firstItem="SC8-Hv-4LT" firstAttribute="leading" secondItem="Dx3-P3-2Jt" secondAttribute="leading" id="hht-vz-kSc"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="mImageView" destination="SC8-Hv-4LT" id="QeZ-lM-bfn"/>
+                                    <outlet property="textView" destination="JOh-qg-Ncc" id="TTH-Rn-xEd"/>
+                                    <outlet property="videov" destination="Dx3-P3-2Jt" id="Qx4-5H-BUz"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="al6-yB-hjN" id="UHH-4m-ddE"/>
+                            <outlet property="delegate" destination="al6-yB-hjN" id="UmA-QG-IbE"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dDo-OP-iPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-14157" y="28"/>
         </scene>
     </scenes>
 </document>
