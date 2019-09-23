@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TicTokLikeTableView_Example' do
+  pod 'TicTokLikeTableView', :path => '../'
+
+  target 'TicTokLikeTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
