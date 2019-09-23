@@ -8,35 +8,31 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TicTokLikeTableView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TicTokLikeTableView.'
+  s.version          = '0.0.1'
+  s.summary          = 'TicTokTableView library for full screen swipable cell'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TicTokLikeTableView provides an easy way to create full screen TableView with swip up-down behavior instead
+of scroll.
                        DESC
 
   s.homepage         = 'https://github.com/afsaredrisy/TicTokLikeTableView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://nsobject.s3.us-east-2.amazonaws.com/ezgif.com-optimize-2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'afsaredrisy' => 'afsaredrisz@icloud.com' }
   s.source           = { :git => 'https://github.com/afsaredrisy/TicTokLikeTableView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://github.com/afsaredrisy'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TicTokLikeTableView/Classes/**/*'
+  s.swift_version = "4.2"
+  s.source_files = 'TicTokLikeTableView'
   
   # s.resource_bundles = {
   #   'TicTokLikeTableView' => ['TicTokLikeTableView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
