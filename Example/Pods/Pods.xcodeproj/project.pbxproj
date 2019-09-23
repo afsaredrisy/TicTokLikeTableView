@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F60946B16D09468DE4875A04EC75DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28CD377FB95E4AA43F551507FAED94B2 /* Pods-TicTokLikeTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8869C531A7CAC05FC59B9A3B8501EBE7 /* Pods-TicTokLikeTableView_Example-dummy.m */; };
+		509CA14D937FE99FEBFC409CD1492ACA /* Pods-TicTokLikeTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3718ED68EB8AF215236687C957503067 /* Pods-TicTokLikeTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D38331D7767C366C6E42925A5911345 /* TicTokLikeTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E46668C822C3895B964B0180401A03 /* TicTokLikeTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB82F840E30610D7AD837DF0B9487090 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872CEAA73C6CF82AC9CD6FC8C77CEDB /* ReplaceMe.swift */; };
+		D367488118BCEDB9EEFE0CC1ADEEC828 /* TicTokLikeTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C435C54372979BAE46CF8AA5A7940 /* TicTokLikeTableView-dummy.m */; };
+		DE8AD8E885DF18ABFBC2F46CA88F7F33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DFDF365F3A729E0DEAA6137003516453 /* Pods-TicTokLikeTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD11D724A5E7A24CF85B652BE486FCA /* Pods-TicTokLikeTableView_Tests-dummy.m */; };
+		F10CDD20CF96D9A3038CBEBC1CE57B5E /* Pods-TicTokLikeTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF82B4E23584763543C56A1CF8165356 /* Pods-TicTokLikeTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1FD159A45998D30ECA8458C1B4A0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707631C4D32D1CC6461BF3D3B0521103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E1F720B4B0F7C8297ACE01C035C29A;
+			remoteInfo = "Pods-TicTokLikeTableView_Example";
+		};
+		90ADFEE2AA85AB4099B8E8A3388C8C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B90DF4F2B0B30D0EBC47F5312BF7FF;
+			remoteInfo = TicTokLikeTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AC8644DBA7E04AF8B8DF0B1458AA7B /* Pods_TicTokLikeTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TicTokLikeTableView_Tests.framework; path = "Pods-TicTokLikeTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D4DC47D94434B2959AA173035CB6ED /* TicTokLikeTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TicTokLikeTableView.xcconfig; sourceTree = "<group>"; };
+		1053AF9198447F97A6C9FC409ADD5C5D /* Pods-TicTokLikeTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D80100FDB05ED95CB6424F63DD9E3B8 /* Pods-TicTokLikeTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		24996B323BAF0A8ECF42C9C4CCF40CD8 /* Pods-TicTokLikeTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTokLikeTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		29E902A24F064FCA867ACF3EA50476D7 /* TicTokLikeTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TicTokLikeTableView-Info.plist"; sourceTree = "<group>"; };
+		2EB18CE93B587316DDB2D3F319B6A848 /* Pods-TicTokLikeTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TicTokLikeTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3718ED68EB8AF215236687C957503067 /* Pods-TicTokLikeTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TicTokLikeTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		43E90C03B99976FB9D8E8FB15162B99B /* Pods-TicTokLikeTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTokLikeTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D968E9B83E55DB3F7F85E96D1BC07F0 /* TicTokLikeTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TicTokLikeTableView.modulemap; sourceTree = "<group>"; };
+		52F90AD975381F3889A0CC075C5AB33E /* TicTokLikeTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TicTokLikeTableView.framework; path = TicTokLikeTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5872CEAA73C6CF82AC9CD6FC8C77CEDB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TicTokLikeTableView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		59EFBF36664244944B741FD985FBE258 /* Pods-TicTokLikeTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TicTokLikeTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C8831FF64B1BD98AC476008117F6D31 /* Pods-TicTokLikeTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTokLikeTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		6CC5E5528D7FF3E118009A6F6535AFE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75CB7A8B9756399ED617A9AAE8B14C2F /* Pods-TicTokLikeTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E15021C06972CC1FCDB679C1DB0BB45 /* Pods_TicTokLikeTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TicTokLikeTableView_Example.framework; path = "Pods-TicTokLikeTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815BF4C0170F6F50649EE4AADC6990C7 /* Pods-TicTokLikeTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		87911A31304391AE997C208231FF375D /* Pods-TicTokLikeTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TicTokLikeTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8869C531A7CAC05FC59B9A3B8501EBE7 /* Pods-TicTokLikeTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TicTokLikeTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		930C435C54372979BAE46CF8AA5A7940 /* TicTokLikeTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TicTokLikeTableView-dummy.m"; sourceTree = "<group>"; };
+		9B440A2C87DC75A2F8546121CD8BCAA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05FB58484453087A6267DA7A13F60D7 /* Pods-TicTokLikeTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTokLikeTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFD11D724A5E7A24CF85B652BE486FCA /* Pods-TicTokLikeTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TicTokLikeTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C53B4CAEC9EDC83C261F2DA49C102042 /* TicTokLikeTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TicTokLikeTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEE789BA607E3DD7B77CE87290963900 /* Pods-TicTokLikeTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TicTokLikeTableView_Example.modulemap"; sourceTree = "<group>"; };
+		D1E46668C822C3895B964B0180401A03 /* TicTokLikeTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TicTokLikeTableView-umbrella.h"; sourceTree = "<group>"; };
+		DF82B4E23584763543C56A1CF8165356 /* Pods-TicTokLikeTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TicTokLikeTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E76939AB3CCEE1D6176A5738F314A448 /* TicTokLikeTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TicTokLikeTableView-prefix.pch"; sourceTree = "<group>"; };
+		FE96521D87343D66A3C71AED0E5BD71A /* Pods-TicTokLikeTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TicTokLikeTableView_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C114E90B0920EC67F7A0878AA98FF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F60946B16D09468DE4875A04EC75DF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE7E5707986E28F0A60BAAFD04AA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8AD8E885DF18ABFBC2F46CA88F7F33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532522BB5A7A7106D7AED4B81E711447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1FD159A45998D30ECA8458C1B4A0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04999CC11EA743EDB3A174DCF4D24FCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D968E9B83E55DB3F7F85E96D1BC07F0 /* TicTokLikeTableView.modulemap */,
+				07D4DC47D94434B2959AA173035CB6ED /* TicTokLikeTableView.xcconfig */,
+				930C435C54372979BAE46CF8AA5A7940 /* TicTokLikeTableView-dummy.m */,
+				29E902A24F064FCA867ACF3EA50476D7 /* TicTokLikeTableView-Info.plist */,
+				E76939AB3CCEE1D6176A5738F314A448 /* TicTokLikeTableView-prefix.pch */,
+				D1E46668C822C3895B964B0180401A03 /* TicTokLikeTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TicTokLikeTableView";
+			sourceTree = "<group>";
+		};
+		27484012C8C20092C85422EDB7ED0E1F /* Pods-TicTokLikeTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CEE789BA607E3DD7B77CE87290963900 /* Pods-TicTokLikeTableView_Example.modulemap */,
+				2EB18CE93B587316DDB2D3F319B6A848 /* Pods-TicTokLikeTableView_Example-acknowledgements.markdown */,
+				A05FB58484453087A6267DA7A13F60D7 /* Pods-TicTokLikeTableView_Example-acknowledgements.plist */,
+				8869C531A7CAC05FC59B9A3B8501EBE7 /* Pods-TicTokLikeTableView_Example-dummy.m */,
+				87911A31304391AE997C208231FF375D /* Pods-TicTokLikeTableView_Example-frameworks.sh */,
+				24996B323BAF0A8ECF42C9C4CCF40CD8 /* Pods-TicTokLikeTableView_Example-Info.plist */,
+				DF82B4E23584763543C56A1CF8165356 /* Pods-TicTokLikeTableView_Example-umbrella.h */,
+				1053AF9198447F97A6C9FC409ADD5C5D /* Pods-TicTokLikeTableView_Example.debug.xcconfig */,
+				1D80100FDB05ED95CB6424F63DD9E3B8 /* Pods-TicTokLikeTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-TicTokLikeTableView_Example";
+			path = "Target Support Files/Pods-TicTokLikeTableView_Example";
+			sourceTree = "<group>";
+		};
+		2E95D17C434DCA9A131DABED65C43980 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1106C2A2431C561C49C4D1DCE266DD /* TicTokLikeTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		55B6C8C8876899742E7E8ED7AAE3ECA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27484012C8C20092C85422EDB7ED0E1F /* Pods-TicTokLikeTableView_Example */,
+				60AEAA449C368F035F28CC21A77E582A /* Pods-TicTokLikeTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B1106C2A2431C561C49C4D1DCE266DD /* TicTokLikeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5872CEAA73C6CF82AC9CD6FC8C77CEDB /* ReplaceMe.swift */,
+				9EB6E8679652E0BE3E5AFB3A59EE3D67 /* Pod */,
+				04999CC11EA743EDB3A174DCF4D24FCE /* Support Files */,
+			);
+			name = TicTokLikeTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		60AEAA449C368F035F28CC21A77E582A /* Pods-TicTokLikeTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE96521D87343D66A3C71AED0E5BD71A /* Pods-TicTokLikeTableView_Tests.modulemap */,
+				59EFBF36664244944B741FD985FBE258 /* Pods-TicTokLikeTableView_Tests-acknowledgements.markdown */,
+				43E90C03B99976FB9D8E8FB15162B99B /* Pods-TicTokLikeTableView_Tests-acknowledgements.plist */,
+				AFD11D724A5E7A24CF85B652BE486FCA /* Pods-TicTokLikeTableView_Tests-dummy.m */,
+				6C8831FF64B1BD98AC476008117F6D31 /* Pods-TicTokLikeTableView_Tests-Info.plist */,
+				3718ED68EB8AF215236687C957503067 /* Pods-TicTokLikeTableView_Tests-umbrella.h */,
+				75CB7A8B9756399ED617A9AAE8B14C2F /* Pods-TicTokLikeTableView_Tests.debug.xcconfig */,
+				815BF4C0170F6F50649EE4AADC6990C7 /* Pods-TicTokLikeTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TicTokLikeTableView_Tests";
+			path = "Target Support Files/Pods-TicTokLikeTableView_Tests";
+			sourceTree = "<group>";
+		};
+		9EB6E8679652E0BE3E5AFB3A59EE3D67 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B440A2C87DC75A2F8546121CD8BCAA9 /* LICENSE */,
+				6CC5E5528D7FF3E118009A6F6535AFE6 /* README.md */,
+				C53B4CAEC9EDC83C261F2DA49C102042 /* TicTokLikeTableView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E95D17C434DCA9A131DABED65C43980 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F1D69C6B8E87FADE7D384144293DB020 /* Products */,
+				55B6C8C8876899742E7E8ED7AAE3ECA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D69C6B8E87FADE7D384144293DB020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E15021C06972CC1FCDB679C1DB0BB45 /* Pods_TicTokLikeTableView_Example.framework */,
+				00AC8644DBA7E04AF8B8DF0B1458AA7B /* Pods_TicTokLikeTableView_Tests.framework */,
+				52F90AD975381F3889A0CC075C5AB33E /* TicTokLikeTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4973210339F187259EEBD9AB99245933 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38331D7767C366C6E42925A5911345 /* TicTokLikeTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB41DE19F0118C5972AA009F4EEFB456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CDD20CF96D9A3038CBEBC1CE57B5E /* Pods-TicTokLikeTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF82568007FD488D1D5CB77581EABF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509CA14D937FE99FEBFC409CD1492ACA /* Pods-TicTokLikeTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		011D6DD02D53B60778D2BAFB356D793D /* Pods-TicTokLikeTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181B050D5BCB57582BF03AB81FB085C /* Build configuration list for PBXNativeTarget "Pods-TicTokLikeTableView_Tests" */;
+			buildPhases = (
+				FBF82568007FD488D1D5CB77581EABF6 /* Headers */,
+				CCC7F7CEEF2EC6A966C88DD922060658 /* Sources */,
+				47BE7E5707986E28F0A60BAAFD04AA6C /* Frameworks */,
+				694F8F86052CE4C485A1ED85A9EB5AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8213452BA73AC306FB5495E64DC781A /* PBXTargetDependency */,
+			);
+			name = "Pods-TicTokLikeTableView_Tests";
+			productName = "Pods-TicTokLikeTableView_Tests";
+			productReference = 00AC8644DBA7E04AF8B8DF0B1458AA7B /* Pods_TicTokLikeTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8B90DF4F2B0B30D0EBC47F5312BF7FF /* TicTokLikeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB963B2F57F3CCCEFC1D6A3EFD10BA5 /* Build configuration list for PBXNativeTarget "TicTokLikeTableView" */;
+			buildPhases = (
+				4973210339F187259EEBD9AB99245933 /* Headers */,
+				F142E42A7C862F0F7237C306DE15FA0E /* Sources */,
+				532522BB5A7A7106D7AED4B81E711447 /* Frameworks */,
+				F00CCEDB387DBA701C7201A1148BDDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTokLikeTableView;
+			productName = TicTokLikeTableView;
+			productReference = 52F90AD975381F3889A0CC075C5AB33E /* TicTokLikeTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3E1F720B4B0F7C8297ACE01C035C29A /* Pods-TicTokLikeTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5EA22D4FEE925CA9740E2C098B9E36 /* Build configuration list for PBXNativeTarget "Pods-TicTokLikeTableView_Example" */;
+			buildPhases = (
+				CB41DE19F0118C5972AA009F4EEFB456 /* Headers */,
+				381C7F63F71F2AF88A7A0813D5B1EE56 /* Sources */,
+				3C114E90B0920EC67F7A0878AA98FF18 /* Frameworks */,
+				22DF0131EADF3972128B1FCFD44DCF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB6A23F62A8FEB0C2F50C07A6EE2F66 /* PBXTargetDependency */,
+			);
+			name = "Pods-TicTokLikeTableView_Example";
+			productName = "Pods-TicTokLikeTableView_Example";
+			productReference = 7E15021C06972CC1FCDB679C1DB0BB45 /* Pods_TicTokLikeTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F1D69C6B8E87FADE7D384144293DB020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E1F720B4B0F7C8297ACE01C035C29A /* Pods-TicTokLikeTableView_Example */,
+				011D6DD02D53B60778D2BAFB356D793D /* Pods-TicTokLikeTableView_Tests */,
+				C8B90DF4F2B0B30D0EBC47F5312BF7FF /* TicTokLikeTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DF0131EADF3972128B1FCFD44DCF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694F8F86052CE4C485A1ED85A9EB5AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00CCEDB387DBA701C7201A1148BDDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381C7F63F71F2AF88A7A0813D5B1EE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD377FB95E4AA43F551507FAED94B2 /* Pods-TicTokLikeTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7F7CEEF2EC6A966C88DD922060658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDF365F3A729E0DEAA6137003516453 /* Pods-TicTokLikeTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F142E42A7C862F0F7237C306DE15FA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB82F840E30610D7AD837DF0B9487090 /* ReplaceMe.swift in Sources */,
+				D367488118BCEDB9EEFE0CC1ADEEC828 /* TicTokLikeTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB6A23F62A8FEB0C2F50C07A6EE2F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TicTokLikeTableView;
+			target = C8B90DF4F2B0B30D0EBC47F5312BF7FF /* TicTokLikeTableView */;
+			targetProxy = 90ADFEE2AA85AB4099B8E8A3388C8C96 /* PBXContainerItemProxy */;
+		};
+		D8213452BA73AC306FB5495E64DC781A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TicTokLikeTableView_Example";
+			target = E3E1F720B4B0F7C8297ACE01C035C29A /* Pods-TicTokLikeTableView_Example */;
+			targetProxy = 707631C4D32D1CC6461BF3D3B0521103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040407558C72B5E05EA10DFC097748F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D80100FDB05ED95CB6424F63DD9E3B8 /* Pods-TicTokLikeTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TicTokLikeTableView_Example/Pods-TicTokLikeTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TicTokLikeTableView_Example/Pods-TicTokLikeTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B9DE035946A864CF0C32DDB55DA9A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1053AF9198447F97A6C9FC409ADD5C5D /* Pods-TicTokLikeTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TicTokLikeTableView_Example/Pods-TicTokLikeTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TicTokLikeTableView_Example/Pods-TicTokLikeTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		585210F1964EA785199AE363F8121F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D4DC47D94434B2959AA173035CB6ED /* TicTokLikeTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView.modulemap";
+				PRODUCT_MODULE_NAME = TicTokLikeTableView;
+				PRODUCT_NAME = TicTokLikeTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F74ABF0E19389C80B6EA1E684EF532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CB7A8B9756399ED617A9AAE8B14C2F /* Pods-TicTokLikeTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TicTokLikeTableView_Tests/Pods-TicTokLikeTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TicTokLikeTableView_Tests/Pods-TicTokLikeTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE2FD3C1B2C203D23985B46D1A5EB1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D4DC47D94434B2959AA173035CB6ED /* TicTokLikeTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TicTokLikeTableView/TicTokLikeTableView.modulemap";
+				PRODUCT_MODULE_NAME = TicTokLikeTableView;
+				PRODUCT_NAME = TicTokLikeTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF40D7C92AE9EE65421045BABE270B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815BF4C0170F6F50649EE4AADC6990C7 /* Pods-TicTokLikeTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TicTokLikeTableView_Tests/Pods-TicTokLikeTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TicTokLikeTableView_Tests/Pods-TicTokLikeTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1181B050D5BCB57582BF03AB81FB085C /* Build configuration list for PBXNativeTarget "Pods-TicTokLikeTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F74ABF0E19389C80B6EA1E684EF532E /* Debug */,
+				BF40D7C92AE9EE65421045BABE270B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5EA22D4FEE925CA9740E2C098B9E36 /* Build configuration list for PBXNativeTarget "Pods-TicTokLikeTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9DE035946A864CF0C32DDB55DA9A74 /* Debug */,
+				040407558C72B5E05EA10DFC097748F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB963B2F57F3CCCEFC1D6A3EFD10BA5 /* Build configuration list for PBXNativeTarget "TicTokLikeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2FD3C1B2C203D23985B46D1A5EB1EB /* Debug */,
+				585210F1964EA785199AE363F8121F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

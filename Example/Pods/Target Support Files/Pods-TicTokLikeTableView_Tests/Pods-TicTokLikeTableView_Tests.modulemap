@@ -1,0 +1,6 @@
+framework module Pods_TicTokLikeTableView_Tests {
+  umbrella header "Pods-TicTokLikeTableView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

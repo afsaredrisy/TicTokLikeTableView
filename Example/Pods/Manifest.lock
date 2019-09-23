@@ -1,0 +1,16 @@
+PODS:
+  - TicTokLikeTableView (0.1.0)
+
+DEPENDENCIES:
+  - TicTokLikeTableView (from `../`)
+
+EXTERNAL SOURCES:
+  TicTokLikeTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TicTokLikeTableView: c258a217c69f8955a910dc409175ff09cfa9e2d1
+
+PODFILE CHECKSUM: 22c725199aea9a65c85ba2aeb2396ac25ff12587
+
+COCOAPODS: 1.7.5

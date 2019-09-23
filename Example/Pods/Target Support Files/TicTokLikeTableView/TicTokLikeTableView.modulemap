@@ -1,0 +1,6 @@
+framework module TicTokLikeTableView {
+  umbrella header "TicTokLikeTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
