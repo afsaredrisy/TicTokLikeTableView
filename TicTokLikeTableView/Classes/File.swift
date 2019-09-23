@@ -11,7 +11,7 @@ open class TicTokLikeTableViewController: UITableViewController, UIGestureRecogn
     
     var currentCell = 0;
     
-   open override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         let swipGes = UISwipeGestureRecognizer(target: self, action: #selector(swipup(_sender:)))
         swipGes.delegate = self
@@ -70,3 +70,4 @@ open class TicTokLikeTableViewController: UITableViewController, UIGestureRecogn
         
     }
 }
+

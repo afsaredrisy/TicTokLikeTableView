@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TicTokLikeTableView'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'TicTokTableView library for full screen swipable cell'
 
 
@@ -26,7 +26,7 @@ of scroll.
 
   s.ios.deployment_target = '8.0'
   s.swift_version = "4.2"
-  s.source_files = 'TicTokLikeTableView'
+  s.source_files = 'TicTokLikeTableView/**/*'
   
   # s.resource_bundles = {
   #   'TicTokLikeTableView' => ['TicTokLikeTableView/Assets/*.png']
