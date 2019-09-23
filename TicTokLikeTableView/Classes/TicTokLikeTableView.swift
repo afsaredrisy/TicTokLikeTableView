@@ -70,4 +70,3 @@ open class TicTokLikeTableViewController: UITableViewController, UIGestureRecogn
         
     }
 }
-

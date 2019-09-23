@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F60946B16D09468DE4875A04EC75DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1209FAF32338D6A6000E0563 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209FAF22338D6A5000E0563 /* File.swift */; };
+		1209FAF52338D759000E0563 /* TicTokLikeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209FAF42338D759000E0563 /* TicTokLikeTableView.swift */; };
 		28CD377FB95E4AA43F551507FAED94B2 /* Pods-TicTokLikeTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8869C531A7CAC05FC59B9A3B8501EBE7 /* Pods-TicTokLikeTableView_Example-dummy.m */; };
 		509CA14D937FE99FEBFC409CD1492ACA /* Pods-TicTokLikeTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3718ED68EB8AF215236687C957503067 /* Pods-TicTokLikeTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D38331D7767C366C6E42925A5911345 /* TicTokLikeTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E46668C822C3895B964B0180401A03 /* TicTokLikeTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +40,7 @@
 		00AC8644DBA7E04AF8B8DF0B1458AA7B /* Pods_TicTokLikeTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTokLikeTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D4DC47D94434B2959AA173035CB6ED /* TicTokLikeTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TicTokLikeTableView.xcconfig; sourceTree = "<group>"; };
 		1053AF9198447F97A6C9FC409ADD5C5D /* Pods-TicTokLikeTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1209FAF22338D6A5000E0563 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = TicTokLikeTableView/Classes/File.swift; sourceTree = "<group>"; };
+		1209FAF42338D759000E0563 /* TicTokLikeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TicTokLikeTableView.swift; path = TicTokLikeTableView/Classes/TicTokLikeTableView.swift; sourceTree = "<group>"; };
 		1D80100FDB05ED95CB6424F63DD9E3B8 /* Pods-TicTokLikeTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTokLikeTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24996B323BAF0A8ECF42C9C4CCF40CD8 /* Pods-TicTokLikeTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTokLikeTableView_Example-Info.plist"; sourceTree = "<group>"; };
 		29E902A24F064FCA867ACF3EA50476D7 /* TicTokLikeTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TicTokLikeTableView-Info.plist"; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 			children = (
 				9EB6E8679652E0BE3E5AFB3A59EE3D67 /* Pod */,
 				04999CC11EA743EDB3A174DCF4D24FCE /* Support Files */,
-				1209FAF22338D6A5000E0563 /* File.swift */,
+				1209FAF42338D759000E0563 /* TicTokLikeTableView.swift */,
 			);
 			name = TicTokLikeTableView;
 			path = ../..;
@@ -390,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1209FAF52338D759000E0563 /* TicTokLikeTableView.swift in Sources */,
 				D367488118BCEDB9EEFE0CC1ADEEC828 /* TicTokLikeTableView-dummy.m in Sources */,
-				1209FAF32338D6A6000E0563 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
